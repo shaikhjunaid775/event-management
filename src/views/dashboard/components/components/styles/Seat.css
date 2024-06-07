@@ -1,0 +1,84 @@
+.movie-layout{
+    flex-wrap: nowrap;
+}
+.seat{
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+    margin: 3px;
+    cursor: pointer;
+    text-align: center;
+}
+.seat:hover{
+    transform: scale(1.1);
+}
+.row{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 8px;
+}
+.seat-grey{
+    background-color: 
+    #4BC27E
+    ;
+}
+.seat-black{
+    border: 2px solid #007c36;
+    background-color: 
+    #4BC27E
+    ;
+}
+.seat-undefined{
+    cursor: auto;
+    pointer-events: none;
+}
+.movie-complex p{
+    text-align: center;
+    /* font-size: 14px; */
+    cursor: pointer;
+}
+
+/* styles.css */
+.seats {
+    width: 20px;
+    height: 20px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: rgb(245, 245, 245);
+    border: 1px solid #ccc;
+    cursor: pointer;
+    border-radius: 4px;
+
+  }
+  
+  
+  
+  .one-person {
+      background-color: #B1FFD3;
+}
+
+.two-people {
+    background-color: #4BC27E;
+  }
+  
+  .three-people {
+    background-color: red;
+  }
+  
+  .vip-seats {
+    background-color: rgb(245, 245, 245);
+  }
+  
+  .vip-seats.one-person {
+    background-color: #E5E3FF;
+  }
+  
+  .vip-seats.two-people {
+    background-color: #817AF3;
+  }
+  
+  .vip-seats.three-people {
+    background-color: red;
+  }
